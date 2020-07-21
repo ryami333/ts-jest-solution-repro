@@ -10,7 +10,7 @@ npm install
 
 # Reproduction
 
-When typechecking with `yarn tsc -b` there are no errors, but when testing with
-`yarn jest` you'll come across TS compilation errors, which indicate that the
+When typechecking with `npm run typecheck` there are no errors, but when testing with
+`npm run test` you'll come across TS compilation errors, which indicate that the
 "resolveJsonModule" and "esModuleInterop" compilerOptions as defined in
 `src/tsconfig.example.json` are not being observed.
