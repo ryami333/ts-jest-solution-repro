@@ -1,7 +1,7 @@
 {
   "name": "ts-jest-solution-repro",
   "version": "1.0.0",
-  "description": "",
+  "description": "Minimal reproduction of https://github.com/kulshekhar/ts-jest/issues/1648",
   "main": "index.js",
   "scripts": {
     "test": "jest",
