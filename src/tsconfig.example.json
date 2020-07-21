@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "noEmit": true
+  },
+  "files": ["./example.spec.ts"],
+  "exclude": ["node_modules", "dist"]
+}
